@@ -91,6 +91,43 @@
 .onovo-service-grid-item .onovo-bubble .bubble-3 {
     animation: none !important; /* Add !important to override any inline styles */
 }
+
+.onovo-section {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    height: auto; /* Adjust as needed */
+}
+
+.onovo-play-btn {
+    position: absolute;
+    bottom: 20px; /* Adjust distance from bottom */
+    right: 20px; /* Adjust distance from right */
+   
+    z-index: 10; /* Ensure it's higher than video z-index if needed */
+    /* Optional: Additional styling like background or size */
+}
+
+.play-circles, .play-lines {
+    display: inline-block;
+    position: relative;
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Example background */
+    border-radius: 50%;
+}
+
+.play-lines {
+    margin-left: 10px; /* Adjust spacing if necessary */
+}
+
+.play-lines span {
+    display: block;
+    width: 8px; /* Adjust line thickness */
+    height: 50%; /* Adjust line height */
+    background-color: #fff; /* Example color */
+    border-radius: 2px; /* Example border radius */
+    margin-bottom: 4px; /* Adjust spacing between lines */
+}
 </style>
 	
 </head>
@@ -184,9 +221,10 @@
 			<!-- Onovo Hero -->
 			<section class="onovo-section ">
 				<div class="image">
-					<video  autoplay muted loop playsinline controls id="heroVideo" width="105%" height="auto">
-						<source src="assets/Images1/Video.mp4" type="video/mp4">
+					<video  autoplay muted loop playsinline id="heroVideo" width="105%" height="auto">
+						<source src="assets/images/URG MEDIA PROMO in.mp4" type="video/mp4">
 					</video>
+
 					
 				</div>
 				<div class="container">
@@ -197,6 +235,9 @@
 					<div class="text">
 						
 					</div>
+					<a href="#" class="onovo-play-btn">
+						<span class="play-circles"></span>
+						<span class="play-lines">
 					
 							<span></span>
 							<span></span>
@@ -465,7 +506,7 @@
 									<!-- Number -->
 									<div class="onovo-number onovo-circle-text mrg-left">
 										<div class="num onovo-text-white">
-											<span> 5 </span>
+											<span> 15 </span>
 										</div>
 										<div class="label onovo-text-black onovo-circle-text-label"> Years of Digital Solutions Experience </div>
 									</div>
@@ -644,7 +685,7 @@
 
 			<section class="onovo-section ">
 				<div class="image">
-					<video  autoplay muted loop playsinline controls id="heroVideo" width="105%" height="auto">
+					<video  autoplay muted loop playsinline  id="heroVideo" width="105%" height="auto">
 						<source src="assets/images/Final.mp4" type="video/mp4">
 					</video>
 					
@@ -657,6 +698,9 @@
 					<div class="text">
 						
 					</div>
+					<a href="#" class="onovo-play-btn">
+						<span class="play-circles"></span>
+						<span class="play-lines">
 					
 							<span></span>
 							<span></span>
@@ -742,27 +786,27 @@
 								<div class="desc">
 									<ul>
 										<li>
-											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="http://facebook.com" target="_blank">
+											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="https://www.facebook.com/people/URG-MEDIA/100094463154303/?locale=hi_IN" target="_blank">
 												<i aria-hidden="true" class="fab fa-facebook-f"></i>
 												<span> Facebook </span>
 											</a>
 										</li>
 										<li>
-											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="http://instagram.com" target="_blank">
+											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="https://www.instagram.com/urgmedia/" target="_blank">
 												<i aria-hidden="true" class="fab fa-instagram"></i>
 												<span> Instagram </span>
 											</a>
 										</li>
 										<li>
-											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="http://twitter.com" target="_blank">
-												<i aria-hidden="true" class="fab fa-twitter"></i>
-												<span> Twitter </span>
+											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="https://wa.me/+919869118118" target="_blank">
+												<i aria-hidden="true" class="fab fa-whatsapp"></i>
+												<span> WhatsApp </span>
 											</a>
 										</li>
 										<li>
-											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="http://linkedin.com" target="_blank">
-												<i aria-hidden="true" class="fab fa-linkedin-in"></i>
-												<span> LinkedIn </span>
+											<a class="onovo-btn btn--white btn--large btn--icon onovo-hover-btn" href="https://www.youtube.com/@urgadvertising" target="_blank">
+												<i aria-hidden="true" class="fab fa-youtube"></i>
+												<span> Youtube </span>
 											</a>
 										</li>
 									</ul>
@@ -1017,18 +1061,18 @@
 							<div class="onovo-social-1 onovo-social-active">
 								<ul>
 									<li>
-										<a class="onovo-social-link onovo-hover-2" href="http://twitter.com" title="Twitter" target="_blank">
-											<i class="fab fa-twitter"></i>
+										<a class="onovo-social-link onovo-hover-2" href="https://www.facebook.com/people/URG-MEDIA/100094463154303/?locale=hi_IN" title="Facebook" target="_blank">
+											<i class="fab fa-facebook-f"></i>
 										</a>
 									</li>
 									<li>
-										<a class="onovo-social-link onovo-hover-2" href="http://linkedin.com" title="LinkedIn" target="_blank">
-											<i class="fab fa-linkedin-in"></i>
+										<a class="onovo-social-link onovo-hover-2" href="https://www.instagram.com/urgmedia/" title="Instagram" target="_blank">
+											<i class="fab fa-instagram"></i>
 										</a>
 									</li>
 									<li>
-										<a class="onovo-social-link onovo-hover-2" href="http://dribbble.com" title="Dribbble" target="_blank">
-											<i class="fab fa-behance"></i>
+										<a class="onovo-social-link onovo-hover-2" href="https://wa.me/+919869118118" title="WhatsApp" target="_blank">
+											<i class="fab fa-whatsapp"></i>
 										</a>
 									</li>
 								</ul>
