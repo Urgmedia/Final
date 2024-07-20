@@ -1471,6 +1471,8 @@ a.onovo-btn.btn--active,
   background: #D8FF36;
 }
 
+
+
 .onovo-btn.btn--active::after {
   background: #fff;
 }
@@ -7843,7 +7845,7 @@ span.onovo-lnk.lnk--active::after,
   .comment .comment-item__reply a:focus,
   .comment .comment-item__reply a:hover::before,
   .comment .comment-item__reply a:focus::before {
-    background: #D8FF36;
+    background: #2296D3;
   }
 }
 /* buttons */
